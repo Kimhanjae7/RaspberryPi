@@ -2,7 +2,7 @@ import time  # 시간 관련 라이브러리
 import datetime  
 
 try:
-    while True:  # 무한 반복복
+    while True:  # 무한 반복
         now = datetime.datetime.now()  # 현재 날짜와 시간 가져오기
         nowSec = now.second  # 현재 시간의 초 단위 가져오기
 
